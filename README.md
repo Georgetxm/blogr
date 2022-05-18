@@ -37,7 +37,7 @@ Desktop Site            |  Mobile Site
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/Georgetxm/blogr.git)
-- Live Site URL: [Vercel App](https://frontend-mentor-ecommerce-page-jimjr3e0j-georgetxm.vercel.app/)
+- Live Site URL: [Vercel App](https://blogr-k2615cdc6-georgetxm.vercel.app/)
 
 ## My process
 
