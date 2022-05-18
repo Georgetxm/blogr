@@ -1,0 +1,97 @@
+.section-two-container {
+    flex-direction: column;
+    position: relative;
+}
+
+.section-two__illustration-container {
+    top: 1px;
+    position: absolute;
+    display: block;
+    max-width: 90%;
+    left: 5%;
+}
+
+.section-two-typography__container {
+    flex-direction: column;
+    border-radius: 0 64px 0 64px;
+    margin-top: 12em;
+    padding: 15em 1.5em 5em 1.5em;
+    background: 
+    linear-gradient(to bottom right, var(--body-gradient-dark-blue), var(--body-gradient-desaturated-blue)),
+    url("../images/bg-pattern-circles.svg");
+    background-blend-mode: color;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 160%;
+    text-align: center;
+}
+
+.section-two-typography__container h1 + p {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-two-typography__container p {
+    max-width: 40ch;
+}
+
+@media(min-width: 768px) {
+    .section-two__illustration-container {
+        max-width: 375px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-two-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        border-radius: 0 64px 0 64px;
+    }
+
+    .section-two__illustration-container {
+        max-width: 40%;
+        top: -5rem;
+        position: absolute;
+        left: 7.5%;
+        transform: none;
+    }
+    
+    .section-two-typography__container {
+        background-position: 0% 90%;
+        background-size: 100%;
+        text-align: start;
+        margin: 0;
+        padding: 8rem 7.5% 8rem 7.5%;
+        width: 100%;
+    }
+
+    .section-two-typography__container h1 {
+        margin: 0 0px 0 auto;
+        /* width: 500px; */
+        font-size: 2.5rem;
+    }
+
+    .section-two-typography__container h1 + p {
+        margin: 1rem 0 0 auto;
+    }
+
+    .section-two-typography__container p {
+        max-width: 60ch;
+    }
+
+}
+
+@media (min-width: 2560px) {
+    .section-two-typography__container {
+        padding-inline: 560px;
+    }
+
+    .section-two__illustration-container {
+        left: 560px;
+    }
+}
